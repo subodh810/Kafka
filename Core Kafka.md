@@ -42,3 +42,7 @@ Q. what is Broker?
 
 >Broker = Kafka server that stores and manages messages
 
+
+Q. What are Kafka Transactions?
+>>Kafka Transactions provide atomicity for multiple Kafka operations and are used to achieve Exactly-Once Semantics. They ensure that message production and offset commits either succeed together or fail together. If a failure occurs before the transaction is committed, Kafka aborts the transaction and rolls back all changes. Transactions work in conjunction with Idempotent Producers and are commonly used in consume-process-produce workflows to prevent both message loss and duplicate processing.
+
