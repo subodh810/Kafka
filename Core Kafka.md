@@ -5,6 +5,11 @@ Q. What is Kafka and why is it used?
 
 >Kafka is widely used for microservice communication, real-time analytics, log aggregation, transaction processing, and event streaming because it provides high throughput, horizontal scalability, message persistence, and fault tolerance
 
+
+Q. What is the difference between Kafka and RabbitMQ?
+>>Kafka is a distributed event-streaming platform designed for high-throughput, scalable, and fault-tolerant data streaming, whereas RabbitMQ is a traditional message broker designed for reliable message delivery, routing, and complex messaging patterns. Kafka is generally preferred for handling massive event streams and real-time data pipelines, while RabbitMQ is better suited for task queues, request-reply communication, and complex routing requirements.
+
+
 Q. What are Topics, Partitions, and Offsets?
 >>Topic
 
