@@ -26,7 +26,9 @@ Q. What are Topics, Partitions, and Offsets?
 Q. How does Kafka achieve high throughput?
 >>High throughput means Kafka can handle and process millions of messages per second with very low latency
 
->Kafka achieves high throughput through partitioning, parallel processing, sequential disk writes, batch processing, zero-copy transfer, and consumer groups. By distributing data across partitions and allowing multiple consumers to process messages concurrently, Kafka can efficiently handle millions of events per second while maintaining scalability and reliability.
+>Kafka achieves high throughput through partitioning, parallel processing, sequential disk writes, batch processing, zero-copy transfer, and consumer groups.
+
+>>By distributing data across partitions and allowing multiple consumers to process messages concurrently, Kafka can efficiently handle millions of events per second while maintaining scalability and reliability.
 
 Q. Why is Kafka better than traditional messaging systems?
 >>Kafka is better than traditional messaging systems because it provides very high throughput, horizontal scalability, fault tolerance, message retention, and event streaming capabilities. 
